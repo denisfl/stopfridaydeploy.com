@@ -61,7 +61,7 @@ configure :build do
   # install gem 'middleman-autoprefixer'
   # activate :autoprefixer
 
-  ignore 'CNAME'
+  # ignore 'CNAME'
 
   # For example, change the Compass output style for deployment
   activate :minify_css
