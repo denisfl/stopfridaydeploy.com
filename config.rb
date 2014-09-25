@@ -93,10 +93,10 @@ end
 
 activate :deploy do |deploy|
   # https://github.com/tvaughan/middleman-deploy
-  # deploy.build_before = true # default: false
+  deploy.build_before = true # default: false
 
   # Git
-  # deploy.method = :git
+  deploy.method = :git
   # Optional Settings
   # deploy.remote = "custom-remote" # remote name or git url, default: origin
   # deploy.branch = "custom-branch" # default: gh-pages

@@ -3,7 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Denis FL> -- <Front-end> -- <@denisfedosov>
+    <Roman Kunin> -- <Design> -- <@rokunin>
 
 # THANKS
 
