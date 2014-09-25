@@ -1,0 +1,70 @@
+.container {
+  margin: 0 auto;
+  width: $containerWidth;
+  text-align: center;
+
+}
+
+.logo {
+  margin: 0 auto;
+}
+.logo-keyboard {
+  width: 450px;
+  height: 387px;
+  background: transparent image-url('keyboard.svg') no-repeat top center;
+}
+
+.title-slogan {
+  text-transform: uppercase;
+  margin-top: 52px;
+  font-size: 3em;
+  line-height: .9;
+}
+
+.title-when {
+  margin: 0 auto;
+  padding: 0.4em 0;
+  width: 444px;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'PT Sans Narrow';
+  font-size: 2.2em;
+  color: #5D570A;
+
+  &:before,
+  &:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #979797;
+    background-clip: content-box;
+  }
+
+  &:before {
+    left: -.1em;
+    margin: 0 0 0 -50%;
+  }
+  &:after {
+    left: .1em;
+    margin: 0 -50% 0 0;
+  }
+}
+
+.blockquote-author {
+  margin-top: 44px;
+  line-height: 1.4;
+  font-size: 1.4em;
+  color: #79721C;
+  text-shadow: 0 1px 0 #FDF8B6;
+}
+.blockquote {
+  margin-top: 10px;
+  font-size: 1em;
+  font-style: italic;
+  color: #908712;
+}

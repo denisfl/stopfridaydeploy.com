@@ -1,0 +1,22 @@
+doctype 5
+html lang="#{data.site.lang}"
+  head
+    meta charset="utf-8"
+    title #{data.site.title}
+    meta name="description" content="#{yield_content(:description).blank? ? data.site.description : yield_content(:description)}"
+    meta name="keywords" content="#{yield_content(:keywords).blank? ? data.site.keywords.join(', ') : yield_content(:keywords).join(', ')}"
+
+    meta name="viewport" content="width=device-width"
+    meta name="apple-mobile-web-app-capable" content="yes"
+    meta name="apple-mobile-web-app-status-bar-style" content="black"
+
+    = stylesheet_link_tag "application"
+    = javascript_include_tag  "vendor/modernizr.js"
+  body
+    = yield
+
+    = javascript_include_tag  "application.js"
+
+    / Google Analytics
+    - unless data.site.google_analytics_id.blank?
+      = partial "layouts/partials/google_analytics_code"

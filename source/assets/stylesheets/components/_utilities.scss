@@ -1,0 +1,25 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+// Quick floats
+.b--right {float: right;}
+.b--left  {float: left;}
+
+// Text align
+.ta--left   {text-align: left;}
+.ta--right  {text-align: right;}
+.ta--center {text-align: center;}
+
+// Toggling content
+.hide {display: none;}
+.show {display: block;}
+
+// Visibility
+.invisible {visibility: hidden;}
+
+// Clearing floats
+.clearfix {
+  @include clearfix();
+}
+
