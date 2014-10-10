@@ -64,12 +64,16 @@
 }
 .blockquote {
   margin-top: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   font-size: 1em;
   font-style: italic;
   color: #908712;
 }
 
+.social-shared {
+  margin: 0 auto 40px;
+  text-align: center;
+}
 
 @media (max-width: 600px) {
   .container {

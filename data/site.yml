@@ -1,7 +1,8 @@
 lang: en
-title: WE DO NOT DEPLOY
+title: WE DO NOT DEPLOY #stopfridaydeploy
 description:
 
+url: http://stopfridaydeploy.com/
 
 # Google Analytics
 # Add code or leave the field blank
